@@ -125,4 +125,12 @@ export class AppComponent {
     const index = this.list.indexOf(item);
     this.list.splice(index, 1);
   }
+
+  animatedStarted(event) {
+    console.log(event);
+  }
+
+  animatedEnded(event) {
+    console.log(event);
+  }
 }
